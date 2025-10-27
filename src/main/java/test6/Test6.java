@@ -23,7 +23,7 @@ public class Test6 {
         // Création du modèle de chat
         ChatLanguageModel model = GoogleAiGeminiChatModel.builder()
                 .apiKey(llmKey)
-                .modelName("gemini-2.5-flash")
+                                .modelName("gemini-2.5-flash")
                 .timeout(Duration.ofSeconds(60))
                 .build();
 
